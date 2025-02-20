@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #3595b3;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(226, 252, 252);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #32caa9;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #0c0c0e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Together for the Earth</h1>
+  <p>"Love The Earth, It's the only one we have"</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Trang Chủ</a>
+  <a href="#">Hoạt Động</a>
+  <a href="#">Quyên Góp</a>
+  <a href="#" style="float:right">Đăng Nhập</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>♻ Biến rác thành tài nguyên</h2>
+      <h5> Feb 13, 2025</h5>
+      <img src="https://marketplace.canva.com/EAGKRqVVLRE/1/0/400w/canva-green-illustrative-sustainable-future-presentation-si1FE7HOgsQ.jpg" width="700" height="350">
+      <p> Biến rác thành tài nguyên không chỉ là một xu hướng mà còn là một giải pháp thiết yếu trong việc phát triển bền vững. Các phương pháp xử lý rác thông minh như phân loại rác tại nguồn, tái chế kim loại, thủy tinh và giấy giúp giảm thiểu việc khai thác tài nguyên tự nhiên và giảm thiểu ô nhiễm. Hơn nữa, việc tận dụng rác hữu cơ để sản xuất phân bón tự nhiên hoặc chuyển đổi rác thải thành năng lượng tái tạo như điện hay nhiệt có thể tạo ra nguồn năng lượng sạch, thay thế dần các nguồn năng lượng không tái tạo. Điều này không chỉ mang lại lợi ích về môi trường mà còn góp phần nâng cao nhận thức cộng đồng trong việc sử dụng tài nguyên hiệu quả hơn, từ đó thúc đẩy nền kinh tế tuần hoàn, nơi rác thải không còn là gánh nặng mà trở thành nguồn tài nguyên quý giá.
+      </p>
+      <p>
+    </p>
+    </div>
+    <div class="card">
+      <h2>📚 “Giáo dục xanh – Chìa khóa cho tương lai bền vững”</h2>
+      <h5>Feb 13, 2025</h5>
+      <img src="https://marketplace.canva.com/EAGNPn8RQnk/1/0/1600w/canva-green-blue-illustration-green-practices-presentation-QTxlZHYOHMQ.jpg" width="700" height="350">
+      <p>Giáo dục xanh là một khái niệm mang tính cách mạng trong việc hình thành một tương lai bền vững cho thế giới. Đó là quá trình giáo dục không chỉ dừng lại ở việc truyền đạt kiến thức mà còn là sự kết nối giữa con người với thiên nhiên, giúp thế hệ trẻ nhận thức sâu sắc về tầm quan trọng của bảo vệ môi trường. Giáo dục xanh khuyến khích học sinh và sinh viên tham gia vào các hoạt động bảo vệ môi trường, từ việc giảm thiểu rác thải, tiết kiệm năng lượng, đến việc trồng cây xanh, bảo vệ động vật hoang dã. Nó không chỉ trang bị cho học sinh kiến thức mà còn hình thành thái độ và hành vi sống xanh, giúp mỗi cá nhân có trách nhiệm hơn với hành tinh này. Thực hiện giáo dục xanh ngay từ bậc học phổ thông sẽ tạo ra một thế hệ tương lai hiểu rõ giá trị của phát triển bền vững, góp phần quan trọng vào việc bảo vệ trái đất và phát triển xã hội một cách hài hòa.
+
+
+
+      </p>
+
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Sứ Mệnh Chúng Tôi</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXG-zvU4iElZJNxk3E1ns7AoZjVLuF0X_ATQ&s">
+      <p>Dự án "Bảo Vệ Môi Trường Xanh" được thành lập với mục tiêu nâng cao nhận thức cộng đồng về tầm quan trọng của việc bảo vệ thiên nhiên và cải thiện chất lượng môi trường sống. Dự án tập trung vào các hoạt động thiết thực như dọn dẹp rác thải, trồng cây xanh, khuyến khích tái chế và phân loại rác thải. Đồng thời, chúng tôi tổ chức các buổi hội thảo và chiến dịch truyền thông để giáo dục cộng đồng bà về biến đổi khí hậu, ô nhiễm và sự cần thiết phải bảo vệ tài nguyên thiên nhiên. Thông qua những hành động cụ thể này, dự án mong muốn tạo ra một môi trường sống xanh, sạch, đẹp cho các thế hệ mai sau, đồng thời thúc đẩy tỉnh thần chung tay bảo vệ Trái Đất trong cộng đồng.
+    </p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <img src="https://marketplace.canva.com/EAFyueG6zP0/2/0/1131w/canva-green-simple-illustrative-environmental-campaign-flyer-lw0VsfBkGJc.jpg" width="200" height="250" >
+      <img src="https://marketplace.canva.com/EAGEtySbOwE/1/0/1131w/canva-green-illustrative-earth-our-common-home-poster-izA_lOh6wRc.jpg" width="200" height="250" >
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p> Facebook </p>
+      <p> Tiktok </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Thank you so much </h2>
+</div>
+
+</body>
+</html>
+
